@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		210DF2C42835DFFCF96457B30F495766 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A41B53594AE50CED1DC92CC760BC131 /* ReplaceMe.swift */; };
-		48449968A64756CA8DF7B65EFF5D8240 /* ABGreetingGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AE8A750BBE738AF3197405B9680D1D0 /* ABGreetingGenerator.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		210DF2C42835DFFCF96457B30F495766 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4930A77F0DD46EFC65D542FEDC7FB4 /* ReplaceMe.swift */; };
+		48449968A64756CA8DF7B65EFF5D8240 /* ABGreetingGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF6FC1093AAA505A6F0A0F4233117E8 /* ABGreetingGenerator.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		668F4C12A24ED2D1338CB162DF4E9AF6 /* Pods-SwiftObjCMixer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C032089A7B442C97E46087456211B2D /* Pods-SwiftObjCMixer_Tests-dummy.m */; };
-		834C6497C4C194CBA6541DDD81DD6FC9 /* ABGreetingGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A81B579200EE184064D52EA2DFD30909 /* ABGreetingGenerator.m */; };
-		B0A31F878B4874D1E9E6CF292DFAC120 /* SwiftObjCMixer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15F871B9F7D336328CE4D4E4DAE44B05 /* SwiftObjCMixer-dummy.m */; };
+		834C6497C4C194CBA6541DDD81DD6FC9 /* ABGreetingGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 697702FBE93C51BCAA739C16C50A6B0F /* ABGreetingGenerator.m */; };
+		B0A31F878B4874D1E9E6CF292DFAC120 /* SwiftObjCMixer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC673C311F7F93DAD839F9C0E2A97A47 /* SwiftObjCMixer-dummy.m */; };
 		CCBEDC4B7A2037898449CA7C63929658 /* Pods-SwiftObjCMixer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 765D7677F8DDE3DD327D934B8D36CA90 /* Pods-SwiftObjCMixer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E0A668F92FBFF62B729FC44FFE6203C8 /* SwiftObjCMixer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1917748B1209A2EB99ADF80C1A257B41 /* SwiftObjCMixer-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E0A668F92FBFF62B729FC44FFE6203C8 /* SwiftObjCMixer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12D0C36E60735E68846FD309BC026F29 /* SwiftObjCMixer-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,27 +27,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15F871B9F7D336328CE4D4E4DAE44B05 /* SwiftObjCMixer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftObjCMixer-dummy.m"; sourceTree = "<group>"; };
-		1917748B1209A2EB99ADF80C1A257B41 /* SwiftObjCMixer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftObjCMixer-umbrella.h"; sourceTree = "<group>"; };
-		1FD4781909B077DACFE34E729531CCE0 /* SwiftObjCMixer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftObjCMixer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		2A41B53594AE50CED1DC92CC760BC131 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SwiftObjCMixer/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		30CAAABC43AF8A65EB91D65E5E54B844 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		07A21E07FC4FCD0BF3C93C46321F58D6 /* SwiftObjCMixer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftObjCMixer-prefix.pch"; sourceTree = "<group>"; };
+		12D0C36E60735E68846FD309BC026F29 /* SwiftObjCMixer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftObjCMixer-umbrella.h"; sourceTree = "<group>"; };
+		133ED2732B875D8C56F1F23E97B8BFD8 /* SwiftObjCMixer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftObjCMixer.debug.xcconfig; sourceTree = "<group>"; };
+		220745BA4E5E560F0C3674AC298258EF /* SwiftObjCMixer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftObjCMixer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		41DD990C6310C923993D7DA4F62E3774 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		42399259FB12E76A62D5C48CDE4C747A /* Pods-SwiftObjCMixer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftObjCMixer_Tests.modulemap"; sourceTree = "<group>"; };
-		5AE8A750BBE738AF3197405B9680D1D0 /* ABGreetingGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABGreetingGenerator.h; path = SwiftObjCMixer/Classes/ABGreetingGenerator.h; sourceTree = "<group>"; };
+		58045F244BEF10AACD03F8A568F75542 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = module.modulemap; path = ../../Headers/Private/SwiftObjCMixer/module.modulemap; sourceTree = "<group>"; };
+		697702FBE93C51BCAA739C16C50A6B0F /* ABGreetingGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABGreetingGenerator.m; path = SwiftObjCMixer/Classes/ABGreetingGenerator.m; sourceTree = "<group>"; };
 		6C032089A7B442C97E46087456211B2D /* Pods-SwiftObjCMixer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftObjCMixer_Tests-dummy.m"; sourceTree = "<group>"; };
-		712170C50C60595B65F3CE9DFC9BD6AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		765D7677F8DDE3DD327D934B8D36CA90 /* Pods-SwiftObjCMixer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftObjCMixer_Tests-umbrella.h"; sourceTree = "<group>"; };
+		769F5A0A0FAD838D0CC5F787861430E7 /* SwiftObjCMixer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftObjCMixer.release.xcconfig; sourceTree = "<group>"; };
 		7CB21C58235B3591AC47FAE4C64FAD51 /* Pods-SwiftObjCMixer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftObjCMixer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		80403CA85E4DF8995AA691190F7459D6 /* libSwiftObjCMixer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSwiftObjCMixer.a; path = libSwiftObjCMixer.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		841CE7B9A24BF262AB4622950DA310B9 /* Pods-SwiftObjCMixer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftObjCMixer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8DA277DBB8D41301CB720EC92CE5F3DA /* SwiftObjCMixer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftObjCMixer.xcconfig; sourceTree = "<group>"; };
 		9C4AE07C25DB5509E2C86C065C3662AC /* Pods-SwiftObjCMixer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftObjCMixer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A81B579200EE184064D52EA2DFD30909 /* ABGreetingGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ABGreetingGenerator.m; path = SwiftObjCMixer/Classes/ABGreetingGenerator.m; sourceTree = "<group>"; };
 		AE6531F47644407DE7DF8B36B7DB3249 /* Pods-SwiftObjCMixer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftObjCMixer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B1742CB2356303C86E851932EC16F6C9 /* libPods-SwiftObjCMixer_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SwiftObjCMixer_Tests.a"; path = "libPods-SwiftObjCMixer_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEBA1CEEC0FBFE1C800BF3AB730A0807 /* SwiftObjCMixer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftObjCMixer-prefix.pch"; sourceTree = "<group>"; };
-		FD9AF0AFC24ABFC1798AD6207F1F6988 /* SwiftObjCMixer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftObjCMixer.modulemap; sourceTree = "<group>"; };
+		D0400E4EC8CE057672B28ECBEF6832BA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E8038CAC43D23A6A06040D630792E424 /* SwiftObjCMixer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftObjCMixer.modulemap; sourceTree = "<group>"; };
+		EC673C311F7F93DAD839F9C0E2A97A47 /* SwiftObjCMixer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftObjCMixer-dummy.m"; sourceTree = "<group>"; };
+		FBF6FC1093AAA505A6F0A0F4233117E8 /* ABGreetingGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABGreetingGenerator.h; path = SwiftObjCMixer/Classes/ABGreetingGenerator.h; sourceTree = "<group>"; };
+		FD4930A77F0DD46EFC65D542FEDC7FB4 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SwiftObjCMixer/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,29 +70,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4A5AFE64597C466A401317BD38D29D84 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FD9AF0AFC24ABFC1798AD6207F1F6988 /* SwiftObjCMixer.modulemap */,
-				8DA277DBB8D41301CB720EC92CE5F3DA /* SwiftObjCMixer.xcconfig */,
-				15F871B9F7D336328CE4D4E4DAE44B05 /* SwiftObjCMixer-dummy.m */,
-				EEBA1CEEC0FBFE1C800BF3AB730A0807 /* SwiftObjCMixer-prefix.pch */,
-				1917748B1209A2EB99ADF80C1A257B41 /* SwiftObjCMixer-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SwiftObjCMixer";
-			sourceTree = "<group>";
-		};
-		4B7B3586955702A5246A624ABFD91B11 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				30CAAABC43AF8A65EB91D65E5E54B844 /* LICENSE */,
-				712170C50C60595B65F3CE9DFC9BD6AE /* README.md */,
-				1FD4781909B077DACFE34E729531CCE0 /* SwiftObjCMixer.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		52484CC4F29C0FCCEEF25714F154C124 /* Pods-SwiftObjCMixer_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,17 +85,27 @@
 			path = "Target Support Files/Pods-SwiftObjCMixer_Tests";
 			sourceTree = "<group>";
 		};
-		74A2A3BC6FB4EA57C57E07EFAB3329A0 /* SwiftObjCMixer */ = {
+		5EB04C60C41B170B93426FDC8ED6BE55 /* SwiftObjCMixer */ = {
 			isa = PBXGroup;
 			children = (
-				5AE8A750BBE738AF3197405B9680D1D0 /* ABGreetingGenerator.h */,
-				A81B579200EE184064D52EA2DFD30909 /* ABGreetingGenerator.m */,
-				2A41B53594AE50CED1DC92CC760BC131 /* ReplaceMe.swift */,
-				4B7B3586955702A5246A624ABFD91B11 /* Pod */,
-				4A5AFE64597C466A401317BD38D29D84 /* Support Files */,
+				FBF6FC1093AAA505A6F0A0F4233117E8 /* ABGreetingGenerator.h */,
+				697702FBE93C51BCAA739C16C50A6B0F /* ABGreetingGenerator.m */,
+				FD4930A77F0DD46EFC65D542FEDC7FB4 /* ReplaceMe.swift */,
+				74189DDA9E4254B549B5167320503951 /* Pod */,
+				BBEABFD0CF17E1E2EA7BF434ABEC36F7 /* Support Files */,
 			);
 			name = SwiftObjCMixer;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		74189DDA9E4254B549B5167320503951 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				41DD990C6310C923993D7DA4F62E3774 /* LICENSE */,
+				D0400E4EC8CE057672B28ECBEF6832BA /* README.md */,
+				220745BA4E5E560F0C3674AC298258EF /* SwiftObjCMixer.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		8DB6F31847E08DBD838E856EFD18522C /* Products */ = {
@@ -131,9 +120,24 @@
 		9A339006143F39E4CBED964ADC4B87B4 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				74A2A3BC6FB4EA57C57E07EFAB3329A0 /* SwiftObjCMixer */,
+				5EB04C60C41B170B93426FDC8ED6BE55 /* SwiftObjCMixer */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BBEABFD0CF17E1E2EA7BF434ABEC36F7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				58045F244BEF10AACD03F8A568F75542 /* module.modulemap */,
+				E8038CAC43D23A6A06040D630792E424 /* SwiftObjCMixer.modulemap */,
+				EC673C311F7F93DAD839F9C0E2A97A47 /* SwiftObjCMixer-dummy.m */,
+				07A21E07FC4FCD0BF3C93C46321F58D6 /* SwiftObjCMixer-prefix.pch */,
+				12D0C36E60735E68846FD309BC026F29 /* SwiftObjCMixer-umbrella.h */,
+				133ED2732B875D8C56F1F23E97B8BFD8 /* SwiftObjCMixer.debug.xcconfig */,
+				769F5A0A0FAD838D0CC5F787861430E7 /* SwiftObjCMixer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwiftObjCMixer";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -332,61 +336,6 @@
 			};
 			name = Release;
 		};
-		112296D32AF9EE44581EE414A8CCF68A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DA277DBB8D41301CB720EC92CE5F3DA /* SwiftObjCMixer.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftObjCMixer/SwiftObjCMixer-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MODULEMAP_FILE = Headers/Public/SwiftObjCMixer/SwiftObjCMixer.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = SwiftObjCMixer;
-				PRODUCT_NAME = SwiftObjCMixer;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		18DF82078F61AA4718D28B20B48489C6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DA277DBB8D41301CB720EC92CE5F3DA /* SwiftObjCMixer.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftObjCMixer/SwiftObjCMixer-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MODULEMAP_FILE = Headers/Public/SwiftObjCMixer/SwiftObjCMixer.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = SwiftObjCMixer;
-				PRODUCT_NAME = SwiftObjCMixer;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -446,6 +395,34 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		CA03B06717B4204CC1249EEB3A2393DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 133ED2732B875D8C56F1F23E97B8BFD8 /* SwiftObjCMixer.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftObjCMixer/SwiftObjCMixer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/SwiftObjCMixer/SwiftObjCMixer.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftObjCMixer;
+				PRODUCT_NAME = SwiftObjCMixer;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INCLUDE_PATHS = Headers/Private/SwiftObjCMixer;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -535,6 +512,35 @@
 			};
 			name = Debug;
 		};
+		E43DD2379A218DEBD747A1D55081A6B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 769F5A0A0FAD838D0CC5F787861430E7 /* SwiftObjCMixer.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftObjCMixer/SwiftObjCMixer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/SwiftObjCMixer/SwiftObjCMixer.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftObjCMixer;
+				PRODUCT_NAME = SwiftObjCMixer;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INCLUDE_PATHS = Headers/Private/SwiftObjCMixer;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -550,8 +556,8 @@
 		5B4E32322BBC4A2FBBA147F8B2F3B4BE /* Build configuration list for PBXNativeTarget "SwiftObjCMixer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				112296D32AF9EE44581EE414A8CCF68A /* Debug */,
-				18DF82078F61AA4718D28B20B48489C6 /* Release */,
+				CA03B06717B4204CC1249EEB3A2393DD /* Debug */,
+				E43DD2379A218DEBD747A1D55081A6B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,6 +1,9 @@
 import XCTest
 import SwiftObjCMixer
 
+// Ideally this should not be accessible here
+import SwiftObjCMixer_Private
+
 class Tests: XCTestCase {
     
     override func setUp() {
@@ -15,7 +18,8 @@ class Tests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+        let r = ReplaceMe()
+        XCTAssert(r.greet().count >= 0, "Pass")
     }
     
     func testPerformanceExample() {
