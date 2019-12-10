@@ -22,5 +22,8 @@
     "5.0"
   ],
   "source_files": "SwiftObjCMixer/Classes/**/*",
+  "private_header_files": [
+    "SwiftObjCMixer/Classes/**/*.h"
+  ],
   "swift_version": "5.0"
 }

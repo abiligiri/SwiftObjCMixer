@@ -25,4 +25,7 @@ Pod::Spec.new do |s|
   s.swift_versions = ['5.0']
   
   s.source_files = 'SwiftObjCMixer/Classes/**/*'
+  s.private_header_files = [
+    'SwiftObjCMixer/Classes/**/*.h'
+  ]
 end
