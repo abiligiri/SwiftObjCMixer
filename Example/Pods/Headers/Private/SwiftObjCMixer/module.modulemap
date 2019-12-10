@@ -1,4 +1,4 @@
-module SwiftObjCMixer_Private {
+module SwiftObjCMixer {
   header "ABGreetingGenerator.h"
 
   export *

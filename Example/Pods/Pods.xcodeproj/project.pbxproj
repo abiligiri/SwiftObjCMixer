@@ -396,7 +396,36 @@
 			};
 			name = Release;
 		};
-		CA03B06717B4204CC1249EEB3A2393DD /* Debug */ = {
+		46C75AD4B923F11A93949F1FA5A04956 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 769F5A0A0FAD838D0CC5F787861430E7 /* SwiftObjCMixer.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftObjCMixer/SwiftObjCMixer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = Headers/Public/SwiftObjCMixer/SwiftObjCMixer.modulemap;
+				MODULEMAP_PRIVATE_FILE = Headers/Private/SwiftObjCMixer/module.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwiftObjCMixer;
+				PRODUCT_NAME = SwiftObjCMixer;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F98E5738CA08BC2C320E645FCCCA18A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 133ED2732B875D8C56F1F23E97B8BFD8 /* SwiftObjCMixer.debug.xcconfig */;
 			buildSettings = {
@@ -409,6 +438,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftObjCMixer/SwiftObjCMixer-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MODULEMAP_FILE = Headers/Public/SwiftObjCMixer/SwiftObjCMixer.modulemap;
+				MODULEMAP_PRIVATE_FILE = Headers/Private/SwiftObjCMixer/module.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -418,7 +448,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INCLUDE_PATHS = Headers/Private/SwiftObjCMixer;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -512,35 +541,6 @@
 			};
 			name = Debug;
 		};
-		E43DD2379A218DEBD747A1D55081A6B0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 769F5A0A0FAD838D0CC5F787861430E7 /* SwiftObjCMixer.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftObjCMixer/SwiftObjCMixer-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				MODULEMAP_FILE = Headers/Public/SwiftObjCMixer/SwiftObjCMixer.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = SwiftObjCMixer;
-				PRODUCT_NAME = SwiftObjCMixer;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INCLUDE_PATHS = Headers/Private/SwiftObjCMixer;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -556,8 +556,8 @@
 		5B4E32322BBC4A2FBBA147F8B2F3B4BE /* Build configuration list for PBXNativeTarget "SwiftObjCMixer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CA03B06717B4204CC1249EEB3A2393DD /* Debug */,
-				E43DD2379A218DEBD747A1D55081A6B0 /* Release */,
+				4F98E5738CA08BC2C320E645FCCCA18A /* Debug */,
+				46C75AD4B923F11A93949F1FA5A04956 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
