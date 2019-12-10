@@ -1,0 +1,26 @@
+{
+  "name": "SwiftObjCMixer",
+  "version": "0.1.0",
+  "summary": "Sample pod to demonstrate access of private ObjC files from Swift",
+  "description": "This is a sample to demonstrate the changes required to cocoapods to access private ObjC files from\nSwift files within the same pod",
+  "homepage": "https://github.com/abiligiri/SwiftObjCMixer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Anand Biligiri": "abiligiri@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/abiligiri/SwiftObjCMixer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_versions": [
+    "5.0"
+  ],
+  "source_files": "SwiftObjCMixer/Classes/**/*",
+  "swift_version": "5.0"
+}

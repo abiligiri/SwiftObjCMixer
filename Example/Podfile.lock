@@ -1,0 +1,16 @@
+PODS:
+  - SwiftObjCMixer (0.1.0)
+
+DEPENDENCIES:
+  - SwiftObjCMixer (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftObjCMixer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftObjCMixer: 50a725b6dc7c48941168c957dd920b0b2abfff34
+
+PODFILE CHECKSUM: 96d64001495c4ece482c5c7732af37b079c43ef6
+
+COCOAPODS: 1.8.4

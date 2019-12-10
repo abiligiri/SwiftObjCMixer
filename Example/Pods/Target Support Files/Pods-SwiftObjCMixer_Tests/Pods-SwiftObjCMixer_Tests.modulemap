@@ -1,0 +1,6 @@
+module Pods_SwiftObjCMixer_Tests {
+  umbrella header "Pods-SwiftObjCMixer_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

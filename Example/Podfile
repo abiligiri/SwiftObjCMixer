@@ -1,0 +1,6 @@
+use_modular_headers!
+target 'SwiftObjCMixer_Tests' do
+  pod 'SwiftObjCMixer', :path => '../'
+  
+  
+end

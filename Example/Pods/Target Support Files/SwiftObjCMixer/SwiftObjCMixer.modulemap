@@ -1,0 +1,6 @@
+module SwiftObjCMixer {
+  umbrella header "SwiftObjCMixer-umbrella.h"
+
+  export *
+  module * { export * }
+}
